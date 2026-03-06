@@ -1,53 +1,45 @@
-Sales Forecast with Machine Learning
+# Sales Forecast with Machine Learning
 
-Projeto simples de previsão de vendas utilizando Python e Machine
-Learning.
+Projeto de previsão de vendas utilizando Python e Machine Learning.
 
-Este projeto treina um modelo de Regressão Linear para prever vendas
-futuras com base em dados históricos.
+## Tecnologias utilizadas
 
-------------------------------------------------------------------------
+- Python
+- Pandas
+- Scikit-Learn
+- Matplotlib
+- Joblib
 
-TECNOLOGIAS UTILIZADAS
+## Estrutura do projeto
 
--   Python
--   Pandas
--   Scikit-Learn
--   Matplotlib
-
-------------------------------------------------------------------------
-
-ESTRUTURA DO PROJETO
-
-sales-forecast-ml 
-│ 
-├── data 
-│ └── sales.csv 
-│ 
-├── src 
-│ └──train_model.py 
-│ 
-├── requirements.txt 
+sales-forecast-ml
+│
+├── data
+│   └── sales.csv
+│
+├── models
+│   └── sales_model.pkl
+│
+├── src
+│   └── train_model.py
+│
+├── requirements.txt
 └── README.md
 
-------------------------------------------------------------------------
+## Como executar o projeto
 
-COMO EXECUTAR O PROJETO
+1. Clone o repositório
 
-1)  Clonar o repositório
+git clone https://github.com/mrlmarkus/python-ml-sales-forecast.git
 
-git clone https://github.com/murilomrk/sales-forecast-ml.git
-
-2)  Instalar dependências
+2. Instale as dependências
 
 pip install -r requirements.txt
 
-3)  Executar o modelo
+3. Execute o modelo
 
 python src/train_model.py
 
-------------------------------------------------------------------------
+## Resultado
 
-RESULTADO
-
-O modelo gera: - Previsão de vendas futuras - Gráfico de regressão linear
+O modelo treina uma regressão linear para prever vendas futuras com base nos meses anteriores.
